@@ -1,5 +1,5 @@
 {% set name = "apache-airflow-providers-jira" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apache-airflow-providers-jira-{{ version }}.tar.gz
-  sha256: a9569c5780dd4dac9a9d9219245c39c51c54a61c713eba45920126576c679854
+  sha256: d2b83898c1dac94a1406976f2c97930d8eb237fd41602f0c38344d56b7ed727e
 
 build:
   number: 0
