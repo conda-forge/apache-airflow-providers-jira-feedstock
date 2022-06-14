@@ -1,5 +1,5 @@
 {% set name = "apache-airflow-providers-jira" %}
-{% set version = "2.0.5" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apache-airflow-providers-jira-{{ version }}.tar.gz
-  sha256: 3e053ba06d6fec7194915870855a0f2b7b23b487e3b6a462b416973a27c56d71
+  sha256: 80617593ecd9c6dd66a460c8a11cb791ac4e4c022f4dc4662550a8ebef4c16ee
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >=3.7
-    - apache-airflow >=2.1.0
+    - apache-airflow >=2.2.0
     - jira >1.0.7
 
 test:
